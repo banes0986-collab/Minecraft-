@@ -1,0 +1,14 @@
+{
+  "name": "mc-load-test",
+  "version": "1.0.0",
+  "description": "Minecraft server performans/yük testi - real protokol botları + RCON ile TPS izleme",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.1",
+    "rcon-client": "^4.2.3"
+  }
+}
